@@ -3,7 +3,8 @@
 > NOTE: Not production ready. Use at your own risk.
 
 1. `go install github.com/bradj/qrgen`
-1. `qrgen wifi -s [ssid] -p [password]`
+1. `go build -o qrgen`
+1. `./qrgen wifi -s [ssid] -p [password]`
 
 ## Generate code for WiFi network
 ```
